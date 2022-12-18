@@ -4,8 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-console.log("Streamstatus by DayZoonHD")
-
+console.log(`Happy eid`);
 client.user.setActivity(`🍥 Rabieeeeeeer `, {
 type: "PLAYING",
 url: "https://www.twitch.tv/loltyler1"})
